@@ -18,7 +18,12 @@ Task preview is available [here](https://nbviewer.jupyter.org/gist/MaximAntonovi
 
 ## Quick start on local machine
 
-1. Install [Miniconda](https://docs.conda.io/en/latest/miniconda.html)
+1. Install [Miniconda](https://docs.conda.io/en/latest/miniconda.html). Select latest miniconda3 for python3.
+
+**For Windows users**
+
+If you experienced package installation error 'maximum recursion depth exceeded', reinstall miniconda and just after installation modify file *conda-dir*\Lib\site-packages\conda\gateways\connection\download.py as follows [link](https://github.com/conda/conda/issues/6994#issuecomment-374891087)
+
 2. Clone repository
 ```
 git clone ssh://git@stash.touchcommerce.com:7999/~maksim_antanovich/touchsoft_ml.git
